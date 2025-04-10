@@ -1,7 +1,7 @@
 ---
 layout:      install
 title:       Install on Linux
-metacontent: Binary pkgsrc package sets for Linux
+metacontent: Binary dreckly package sets for Linux
 prefix:      /usr/pkg
 ---
 
@@ -16,7 +16,7 @@ prefix:      /usr/pkg
 			<p class="lead">
 				Packages for Linux are currently built for Enterprise Linux
 				(i.e. CentOS, Oracle, RedHat, Scientific) version 7.x.  They
-				are built from pkgsrc trunk and are updated every few days.
+				are built from dreckly trunk and are updated every few days.
 			</p>
 		</div>
 	</div>

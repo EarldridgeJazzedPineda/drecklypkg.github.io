@@ -1,7 +1,7 @@
 ---
 layout:      default
 title:       Binary packages for SmartOS/illumos, macOS, Linux, and NetBSD
-metacontent: Binary pkgsrc package sets for SmartOS/illumos, macOS, Linux, and NetBSD.
+metacontent: Binary dreckly package sets for SmartOS/illumos, macOS, Linux, and NetBSD.
 ---
 
 <div class="container">
@@ -46,7 +46,7 @@ ffmpeg7-7.0     Decoding, encoding and streaming software (v7.x)
 # vi /opt/pkg/etc/mk.conf.local
 PKG_OPTIONS.ffmpeg7+=   fdk-aac x265
 CFLAGS+=                -O3
-# cd pkgsrc/multimedia/ffmpeg7
+# cd dreckly/multimedia/ffmpeg7
 # bmake install
 {% endhighlight %}
 		</div>
@@ -63,7 +63,7 @@ CFLAGS+=                -O3
 	<div class="row">
 		<div class="col-md-3">
 			<h3>SmartOS/Illumos</h3>
-			<p>Our primary platform is SmartOS, but our packages are portable across illumos distributions.  They are built nightly from pkgsrc trunk for SmartOS, OmniOS, OpenIndiana, and Tribblix.</p>
+			<p>Our primary platform is SmartOS, but our packages are portable across illumos distributions.  They are built nightly from dreckly trunk for SmartOS, OmniOS, OpenIndiana, and Tribblix.</p>
 		</div>
 		<div class="col-md-3">
 			<h3>macOS</h3>
@@ -75,7 +75,7 @@ CFLAGS+=                -O3
 		</div>
 		<div class="col-md-3">
 			<h3>NetBSD</h3>
-			<p>We also offer daily builds of pkgsrc trunk for NetBSD 10.0/amd64.  They are provided for users and developers to run the latest packages without having to wait for the next branch.</p>
+			<p>We also offer daily builds of dreckly trunk for NetBSD 10.0/amd64.  They are provided for users and developers to run the latest packages without having to wait for the next branch.</p>
 		</div>
 	</div>
 	<div class="row">

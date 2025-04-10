@@ -1,7 +1,7 @@
 ---
 layout:      install
 title:       Install on illumos
-metacontent: Binary pkgsrc package sets for illumos
+metacontent: Binary dreckly package sets for illumos
 prefix:      /opt/local
 ---
 
@@ -14,7 +14,7 @@ prefix:      /opt/local
 	<div class="row">
 		<div class="col-md-10 col-md-offset-1">
 			<p class="lead">
-				Thanks to its cross-platform support, pkgsrc is able to combine the
+				Thanks to its cross-platform support, dreckly is able to combine the
 				efforts of developers from NetBSD, SmartOS, macOS, Linux, and others,
 				to produce a single package repository containing over 24,000 binary
 				packages, providing regularly updated desktop and server packages to
@@ -28,7 +28,7 @@ prefix:      /opt/local
 	<div class="row">
 		<div class="col-md-3">
 			<a href="/img/illumos-desktop-2018Q2.png">
-				<img alt="pkgsrc MATE 1.20.0 on Tribblix" src="/img/illumos-desktop-2018Q2.png" class="img-responsive">
+				<img alt="dreckly MATE 1.20.0 on Tribblix" src="/img/illumos-desktop-2018Q2.png" class="img-responsive">
 			</a>
 			<p class="small text-center">
 				MATE 1.20.0
@@ -36,7 +36,7 @@ prefix:      /opt/local
 		</div>
 		<div class="col-md-3">
 			<a href="/img/illumos-desktop-xfce.png">
-				<img alt="pkgsrc Xfce 4.12 on OmniOS" src="/img/illumos-desktop-xfce-small.png" class="img-responsive">
+				<img alt="dreckly Xfce 4.12 on OmniOS" src="/img/illumos-desktop-xfce-small.png" class="img-responsive">
 			</a>
 			<p class="small text-center">
 				Xfce 4.12
@@ -44,7 +44,7 @@ prefix:      /opt/local
 		</div>
 		<div class="col-md-3">
 			<a href="/img/illumos-desktop-kde4.png">
-				<img alt="pkgsrc KDE 4 on OmniOS" src="/img/illumos-desktop-kde4-small.png" class="img-responsive">
+				<img alt="dreckly KDE 4 on OmniOS" src="/img/illumos-desktop-kde4-small.png" class="img-responsive">
 			</a>
 			<p class="small text-center">
 				KDE 4
@@ -52,7 +52,7 @@ prefix:      /opt/local
 		</div>
 		<div class="col-md-3">
 			<a href="/img/illumos-desktop-awesome.png">
-				<img alt="pkgsrc Awesome on OmniOS" src="/img/illumos-desktop-awesome-small.png" class="img-responsive">
+				<img alt="dreckly Awesome on OmniOS" src="/img/illumos-desktop-awesome-small.png" class="img-responsive">
 			</a>
 			<p class="small text-center">
 				Awesome
@@ -68,7 +68,7 @@ prefix:      /opt/local
 		<div class="col-md-10 col-md-offset-1">
 			<p class="lead">
 				Our packages are built on SmartOS 20210826 but should work on any illumos
-				distribution of at least that date, and are regularly updated from pkgsrc
+				distribution of at least that date, and are regularly updated from dreckly
 				trunk.  The tools option is a smaller package set designed specifically
 				to run in the SmartOS Global Zone.  The upgrade kits unpack newer configs
 				and PGP keys over the top of an existing install ready for upgrading.

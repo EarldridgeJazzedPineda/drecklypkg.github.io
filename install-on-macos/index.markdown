@@ -1,7 +1,7 @@
 ---
 layout:      install
 title:       Install on macOS
-metacontent: Binary pkgsrc package sets for macOS
+metacontent: Binary dreckly package sets for macOS
 prefix:      /opt/pkg
 ---
 
@@ -9,7 +9,7 @@ prefix:      /opt/pkg
 	<div class="row">
 		<div class="col-md-3">
 			<a href="/img/osx-desktop-xfce.png">
-				<img alt="pkgsrc XFCE 4.12 on macOS" src="/img/osx-desktop-xfce-small.png" class="img-responsive">
+				<img alt="dreckly XFCE 4.12 on macOS" src="/img/osx-desktop-xfce-small.png" class="img-responsive">
 			</a>
 			<p class="small text-center">
 				XFCE 4.12 / Gnumeric / Inkscape
@@ -17,7 +17,7 @@ prefix:      /opt/pkg
 		</div>
 		<div class="col-md-3">
 			<a href="/img/osx-desktop-apps.png">
-				<img alt="pkgsrc apps on macOS" src="/img/osx-desktop-apps-small.png" class="img-responsive">
+				<img alt="dreckly apps on macOS" src="/img/osx-desktop-apps-small.png" class="img-responsive">
 			</a>
 			<p class="small text-center">
 				GIMP / XChat
@@ -25,7 +25,7 @@ prefix:      /opt/pkg
 		</div>
 		<div class="col-md-3">
 			<a href="/img/osx-install-nodejs.png">
-				<img alt="Installing pkgsrc nodejs on macOS" src="/img/osx-install-nodejs-small.png" class="img-responsive">
+				<img alt="Installing dreckly nodejs on macOS" src="/img/osx-install-nodejs-small.png" class="img-responsive">
 			</a>
 			<p class="small text-center">
 				Installing Node.js
@@ -33,7 +33,7 @@ prefix:      /opt/pkg
 		</div>
 		<div class="col-md-3">
 			<a href="/img/osx-install-jekyll.png">
-				<img alt="Running pkgsrc jekyll on macOS" src="/img/osx-install-jekyll-small.png" class="img-responsive">
+				<img alt="Running dreckly jekyll on macOS" src="/img/osx-install-jekyll-small.png" class="img-responsive">
 			</a>
 			<p class="small text-center">
 				Installing and running Jekyll (Ruby 2.3 version)
@@ -51,7 +51,7 @@ prefix:      /opt/pkg
 				Our primary packages for macOS are available for both Apple
 				Silicon (arm64) and Intel (x86_64), running Monterey (12.3)
 				or newer.
-				Built from pkgsrc trunk, they are updated every week.
+				Built from dreckly trunk, they are updated every week.
 			</p>
 		</div>
 	</div>
@@ -71,7 +71,7 @@ prefix:      /opt/pkg
 # Copy and paste the lines below to install the Apple Silicon (arm64) set.
 #
 # These packages are suitable for anyone running Monterey (12.3) or newer on
-# Apple Silicon CPUs, and are updated from pkgsrc trunk every week.
+# Apple Silicon CPUs, and are updated from dreckly trunk every week.
 #
 # This should only ever be performed once.  Unpacking the bootstrap kit over
 # the top of an existing install will corrupt your package database.
@@ -93,7 +93,7 @@ echo "${BOOTSTRAP_SHA}  ${BOOTSTRAP_TAR}" | shasum -c-
 # Install bootstrap kit to {{ page.prefix }}
 sudo tar -zxpf ${BOOTSTRAP_TAR} -C /
 
-# Reload PATH/MANPATH (pkgsrc installs /etc/paths.d/10-pkgsrc for new sessions)
+# Reload PATH/MANPATH (dreckly installs /etc/paths.d/10-pkgsrc for new sessions)
 eval $(/usr/libexec/path_helper)
 {% endhighlight %}
 				</div>
@@ -149,7 +149,7 @@ sudo pkgin -y upgrade
 # Copy and paste the lines below to install the Intel set.
 #
 # These packages are suitable for anyone running Monterey (12.3) or newer on
-# Intel x86 CPUs, and are updated from pkgsrc trunk every week.
+# Intel x86 CPUs, and are updated from dreckly trunk every week.
 #
 # This should only ever be performed once.  Unpacking the bootstrap kit over
 # the top of an existing install will corrupt your package database.
@@ -171,7 +171,7 @@ echo "${BOOTSTRAP_SHA}  ${BOOTSTRAP_TAR}" | shasum -c-
 # Install bootstrap kit to {{ page.prefix }}
 sudo tar -zxpf ${BOOTSTRAP_TAR} -C /
 
-# Reload PATH/MANPATH (pkgsrc installs /etc/paths.d/10-pkgsrc for new sessions)
+# Reload PATH/MANPATH (dreckly installs /etc/paths.d/10-pkgsrc for new sessions)
 eval $(/usr/libexec/path_helper)
 {% endhighlight %}
 				</div>
@@ -277,7 +277,7 @@ echo "${BOOTSTRAP_SHA}  ${BOOTSTRAP_TAR}" | shasum -c-
 # Install bootstrap kit to {{ page.prefix }}
 sudo tar -zxpf ${BOOTSTRAP_TAR} -C /
 
-# Reload PATH/MANPATH (pkgsrc installs /etc/paths.d/10-pkgsrc for new sessions)
+# Reload PATH/MANPATH (dreckly installs /etc/paths.d/10-pkgsrc for new sessions)
 eval $(/usr/libexec/path_helper)
 {% endhighlight %}
 				</div>
@@ -307,7 +307,7 @@ echo "${BOOTSTRAP_SHA}  ${BOOTSTRAP_TAR}" | shasum -c-
 # Install bootstrap kit to {{ page.prefix }}
 sudo tar -zxpf ${BOOTSTRAP_TAR} -C /
 
-# Reload PATH/MANPATH (pkgsrc installs /etc/paths.d/10-pkgsrc for new sessions)
+# Reload PATH/MANPATH (dreckly installs /etc/paths.d/10-pkgsrc for new sessions)
 eval $(/usr/libexec/path_helper)
 {% endhighlight %}
 				</div>
@@ -345,7 +345,7 @@ sed -i \
     {{ page.prefix }}/etc/pkg_install.conf \
     {{ page.prefix }}/etc/pkgin/repositories.conf
 
-# Reload PATH/MANPATH (pkgsrc installs /etc/paths.d/10-pkgsrc for new sessions)
+# Reload PATH/MANPATH (dreckly installs /etc/paths.d/10-pkgsrc for new sessions)
 eval $(/usr/libexec/path_helper)
 {% endhighlight %}
 				</div>
@@ -383,7 +383,7 @@ sed -i \
     {{ page.prefix }}/etc/pkg_install.conf \
     {{ page.prefix }}/etc/pkgin/repositories.conf
 
-# Reload PATH/MANPATH (pkgsrc installs /etc/paths.d/10-pkgsrc for new sessions)
+# Reload PATH/MANPATH (dreckly installs /etc/paths.d/10-pkgsrc for new sessions)
 eval $(/usr/libexec/path_helper)
 {% endhighlight %}
 				</div>
@@ -421,7 +421,7 @@ sed -i \
     {{ page.prefix }}/etc/pkg_install.conf \
     {{ page.prefix }}/etc/pkgin/repositories.conf
 
-# Reload PATH/MANPATH (pkgsrc installs /etc/paths.d/10-pkgsrc for new sessions)
+# Reload PATH/MANPATH (dreckly installs /etc/paths.d/10-pkgsrc for new sessions)
 eval $(/usr/libexec/path_helper)
 {% endhighlight %}
 				</div>
